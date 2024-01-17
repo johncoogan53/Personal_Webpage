@@ -1,3 +1,4 @@
+theme = "blow"
 # The URL the site will be built for
 base_url = "https://johncoogan53.github.io/Personal_Webpage"
 
@@ -14,3 +15,77 @@ highlight_code = false
 
 [extra]
 # Put all your custom variables here
+
+enable_search = true
+enable_sidebar = true
+enable_adsense = true
+enable_multilingue = true
+adsense_link = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=myclientid"
+
+[extra.lang]
+items = [
+    { lang = "en", links = [
+        { base_url = "/", name = "English" },
+        { base_url = "/fr", name = "French" },
+    ] },
+    { lang = "fr", links = [
+        { base_url = "/", name = "Anglais" },
+        { base_url = "/fr", name = "Français" },
+    ] },
+]
+
+[extra.navbar]
+items = [
+    { lang = "en", links = [
+        { url = "/", name = "Home" },
+        { url = "/categories", name = "Projects" },
+        { url = "/tags", name = "Tags" },
+    ] },
+    { lang = "fr", links = [
+        { url = "/fr", name = "Accueil" },
+        { url = "/fr/categories", name = "Categories" },
+        { url = "/fr/tags", name = "Tags" },
+    ] },
+]
+title = ""
+
+[extra.sidebar]
+items = [
+    { lang = "en", links = [
+        { url = "/markdown", name = "Markdown" },
+        { url = "/blog", name = "Blog" },
+    ] },
+    { lang = "fr", links = [
+        { url = "/fr/markdown", name = "Markdown" },
+        { url = "/fr/blog", name = "Blog" },
+    ] },
+]
+
+# Index page
+[extra.index]
+title = "John Coogan"
+image = "https://media.licdn.com/dms/image/D5603AQE9QM5HG8b_Ig/profile-displayphoto-shrink_400_400/0/1695219169489?e=1710979200&v=beta&t=CyhYHWqpKwk6Y3OmDEXNL53SzQynhGAVK4Jr-xaPtio"
+image_alt = "Placeholder text describing the index's image."
+
+[extra.default_author]
+name = "John Coogan"
+avatar = "https://via.placeholder.com/200"
+avatar_alt = "Placeholder text describing the default author's avatar."
+
+[extra.social]
+github = "https://github.com/johncoogan53"
+gitlab = "https://gitlab.com/johndoe"
+twitter = "https://twitter.com/johndoe"
+linkedin = "https://www.linkedin.com/in/john-coogan-5b3386270/"
+stackoverflow = "https://stackoverflow.com/users/01234567/johndoe" 
+telegram = "https://t.me/johndoe"
+email = "john.coogan@duke.edu"
+
+[extra.favicon]
+favicon = "/icons/favicon.ico"
+favicon_16x16 = "/icons/favicon-16x16.png"
+favicon_32x32 = "/icons/favicon-32x32.png"
+apple_touch_icon = "/icons/apple-touch-icon.png"
+android_chrome_512 = "/icons/android-chrome-512x512.png"
+android_chrome_192 = "/icons/android-chrome-192x192.png"
+manifest = "/icons/site.webmanifest"
