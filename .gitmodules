@@ -1,0 +1,4 @@
+[submodule "mypage/themes/blow"]
+	path = mypage/themes/blow
+	url = git@github.com:tchartron/blow.git
+	branch = main
